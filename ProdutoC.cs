@@ -6,8 +6,7 @@ namespace Curso{
             static void Main(string[] args) {
                 Produto p = new Produto("TV", 500.00, 10);
                 
-
-               /* Console.WriteLine("Entre os dados do produto: ");
+                Console.WriteLine("Entre os dados do produto: ");
                 Console.Write("Nome: ");
                 string nome = Console.ReadLine();
                 Console.Write("Preço: ");
@@ -36,7 +35,7 @@ namespace Curso{
                 p.RemoverProdutos(qte);
 
                 Console.WriteLine();
-                Console.WriteLine("Dados atualizados: ");*/
+                Console.WriteLine("Dados atualizados: ");
 
             }
         }
