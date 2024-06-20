@@ -1,4 +1,4 @@
-/*using System;
+using System;
 namespace Curso {
 class Sim {
     static void Main(string[] args) {
@@ -17,4 +17,4 @@ class Sim {
     else
     Console.WriteLine("Y is null");
     }
-}*/
+}
