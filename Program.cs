@@ -29,7 +29,7 @@ class QnAService
         }
         else
         {
-            return "Sorry, I'm not sure how to answer that.";
+            return "Desculpe, não tenho certeza como te responder isso.";
         }
     }
 }
@@ -40,7 +40,7 @@ class Program
     {
         var qnaService = new QnAService("<your-subscription-key>", "<your-endpoint>", "<your-knowledge-base-id>");
 
-        Console.WriteLine("Welcome to the QnA Service. Ask me anything!");
+        Console.WriteLine("Bem vindo(a) ao sistema de Perguntas e Respostas!");
         while (true)
         {
             Console.Write("> ");
